@@ -14,7 +14,7 @@ export default function Home() {
           backgroundPosition: 'center',
         }}
       >
-        <div className="absolute inset-0 bg-gradient-to-br from-gray-50/90 to-white/90"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-gray-50/40 to-white/40"></div>
         <div className="relative z-10 max-w-7xl mx-auto">
           <div className="max-w-4xl">
             <h1 className="text-5xl md:text-7xl font-bold text-kuli-dark mb-6 leading-tight">
@@ -123,7 +123,7 @@ export default function Home() {
           backgroundPosition: 'center',
         }}
       >
-        <div className="absolute inset-0 bg-white/85"></div>
+        <div className="absolute inset-0 bg-white/40"></div>
         <div className="relative z-10 max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-kuli-dark mb-4">
@@ -287,7 +287,7 @@ export default function Home() {
           backgroundPosition: 'center',
         }}
       >
-        <div className="absolute inset-0 bg-white/85"></div>
+        <div className="absolute inset-0 bg-white/40"></div>
         <div className="relative z-10 max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-kuli-dark mb-4">
@@ -386,7 +386,7 @@ export default function Home() {
           backgroundPosition: 'center',
         }}
       >
-        <div className="absolute inset-0 bg-gradient-to-br from-gray-50/90 to-white/90"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-gray-50/40 to-white/40"></div>
         <div className="relative z-10 max-w-4xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold text-kuli-dark mb-4">
