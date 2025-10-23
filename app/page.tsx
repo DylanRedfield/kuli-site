@@ -6,8 +6,17 @@ export default function Home() {
       <Navigation />
 
       {/* Hero Section */}
-      <section className="pt-32 pb-20 px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-white">
-        <div className="max-w-7xl mx-auto">
+      <section
+        className="relative pt-32 pb-20 px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-white"
+        style={{
+          backgroundImage: 'url(https://images.unsplash.com/photo-1758518726869-01aff69a56e3?w=1600&q=80)',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundBlendMode: 'overlay',
+        }}
+      >
+        <div className="absolute inset-0 bg-white/30"></div>
+        <div className="relative z-10 max-w-7xl mx-auto">
           <div className="max-w-4xl">
             <h1 className="text-5xl md:text-7xl font-bold text-kuli-dark mb-6 leading-tight">
               Innovation without marketing is a journey with no destination.
@@ -28,6 +37,26 @@ export default function Home() {
               Trusted by startups, scale-ups, and enterprises worldwide.
             </p>
           </div>
+        </div>
+        <div className="absolute bottom-2 right-2 z-20 text-xs text-gray-500 opacity-50">
+          Photo by{" "}
+          <a
+            href="https://unsplash.com/@silverkblack?utm_source=kuli_site&utm_medium=referral"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline hover:text-gray-700"
+          >
+            Vitaly Gariev
+          </a>{" "}
+          on{" "}
+          <a
+            href="https://unsplash.com?utm_source=kuli_site&utm_medium=referral"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline hover:text-gray-700"
+          >
+            Unsplash
+          </a>
         </div>
       </section>
 
@@ -87,8 +116,17 @@ export default function Home() {
       </section>
 
       {/* Services Section */}
-      <section id="services" className="py-20 px-6 lg:px-8 bg-white">
-        <div className="max-w-7xl mx-auto">
+      <section
+        className="relative py-20 px-6 lg:px-8 bg-white"
+        style={{
+          backgroundImage: 'url(https://images.unsplash.com/photo-1721864428830-7417b93831b8?w=1600&q=80)',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundBlendMode: 'overlay',
+        }}
+      >
+        <div className="absolute inset-0 bg-white/30"></div>
+        <div className="relative z-10 max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-kuli-dark mb-4">
               Your Growth, Our Full Stack
@@ -174,6 +212,26 @@ export default function Home() {
             ))}
           </div>
         </div>
+        <div className="absolute bottom-2 right-2 z-20 text-xs text-gray-500 opacity-50">
+          Photo by{" "}
+          <a
+            href="https://unsplash.com/@n3gve?utm_source=kuli_site&utm_medium=referral"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline hover:text-gray-700"
+          >
+            Evgeny Opanasenko
+          </a>{" "}
+          on{" "}
+          <a
+            href="https://unsplash.com?utm_source=kuli_site&utm_medium=referral"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline hover:text-gray-700"
+          >
+            Unsplash
+          </a>
+        </div>
       </section>
 
       {/* Why Different Section */}
@@ -223,8 +281,17 @@ export default function Home() {
       </section>
 
       {/* Process Section */}
-      <section id="process" className="py-20 px-6 lg:px-8 bg-white">
-        <div className="max-w-7xl mx-auto">
+      <section
+        className="relative py-20 px-6 lg:px-8 bg-white"
+        style={{
+          backgroundImage: 'url(https://images.unsplash.com/photo-1548406660-6a5c1865f74d?w=1600&q=80)',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundBlendMode: 'overlay',
+        }}
+      >
+        <div className="absolute inset-0 bg-white/30"></div>
+        <div className="relative z-10 max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-kuli-dark mb-4">
               How We Get Results, Together
@@ -290,11 +357,41 @@ export default function Home() {
             </a>
           </div>
         </div>
+        <div className="absolute bottom-2 right-2 z-20 text-xs text-gray-500 opacity-50">
+          Photo by{" "}
+          <a
+            href="https://unsplash.com/@benlodge123?utm_source=kuli_site&utm_medium=referral"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline hover:text-gray-700"
+          >
+            Ben Lodge
+          </a>{" "}
+          on{" "}
+          <a
+            href="https://unsplash.com?utm_source=kuli_site&utm_medium=referral"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline hover:text-gray-700"
+          >
+            Unsplash
+          </a>
+        </div>
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="py-20 px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-white">
-        <div className="max-w-4xl mx-auto">
+      <section
+        id="contact"
+        className="relative py-20 px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-white"
+        style={{
+          backgroundImage: 'url(https://images.unsplash.com/photo-1678345201361-f070f85b62a5?w=1600&q=80)',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundBlendMode: 'overlay',
+        }}
+      >
+        <div className="absolute inset-0 bg-white/30"></div>
+        <div className="relative z-10 max-w-4xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold text-kuli-dark mb-4">
               Wanna hear what we can do for your company?
@@ -353,6 +450,26 @@ export default function Home() {
               </button>
             </div>
           </form>
+        </div>
+        <div className="absolute bottom-2 right-2 z-20 text-xs text-gray-500 opacity-50">
+          Photo by{" "}
+          <a
+            href="https://unsplash.com/@masjidmpd?utm_source=kuli_site&utm_medium=referral"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline hover:text-gray-700"
+          >
+            Masjid Pogung Dalangan
+          </a>{" "}
+          on{" "}
+          <a
+            href="https://unsplash.com?utm_source=kuli_site&utm_medium=referral"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline hover:text-gray-700"
+          >
+            Unsplash
+          </a>
         </div>
       </section>
 
